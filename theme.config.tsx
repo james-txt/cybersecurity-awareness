@@ -1,7 +1,12 @@
 import React from 'react'
 import { DocsThemeConfig } from 'nextra-theme-docs'
+import { Analytics } from '@vercel/analytics/react'
 
 const config: DocsThemeConfig = {
+  main: ({ children }) => (<>
+    {children}
+    <Analytics />
+</>),
   logo: <span>Cybersecurity Awareness</span>,
   project: {
     link: 'https://github.com/james-txt/cybersecurity-awareness',
@@ -9,9 +14,8 @@ const config: DocsThemeConfig = {
   feedback: {
     content:null
   },
-  editLink:
-  {
-    component: null    
+  editLink: {
+    text: null,
   },
   footer: {
     text: (
