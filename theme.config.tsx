@@ -3,6 +3,13 @@ import { DocsThemeConfig } from 'nextra-theme-docs'
 import { Analytics } from '@vercel/analytics/react'
 
 const config: DocsThemeConfig = {
+  head: (
+    <>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <meta property="og:title" content="Cybersecurity Awareness" />
+      <meta property="og:description" content="Innovatech Solutions: Cybersecurity Awareness Website" />
+    </>
+  ),
   main: ({ children }) => (
     <>
       {children}
