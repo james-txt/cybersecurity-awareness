@@ -1,18 +1,28 @@
 import React from 'react'
 import { DocsThemeConfig } from 'nextra-theme-docs'
+import { Analytics } from '@vercel/analytics/react'
 
 const config: DocsThemeConfig = {
-  logo: <span>My Project</span>,
+  logo: <span>Cybersecurity Awareness</span>,
   project: {
-    link: 'https://github.com/shuding/nextra-docs-template',
+    link: 'https://github.com/james-txt/cybersecurity-awareness',
   },
-  chat: {
-    link: 'https://discord.com',
+  feedback: {
+    content:null
   },
-  docsRepositoryBase: 'https://github.com/shuding/nextra-docs-template',
+  editLink:
+  {
+    component: null    
+  },
   footer: {
-    text: 'Nextra Docs Template',
-  },
+    text: (
+      <span>
+          <a href="foobar" target="_blank">
+           &copy; 2024 Innovatech Solutions
+          </a>
+      </span>
+    )
+  }
 }
 
 export default config
