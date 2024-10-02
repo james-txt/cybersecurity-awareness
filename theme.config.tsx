@@ -3,14 +3,13 @@ import { DocsThemeConfig } from 'nextra-theme-docs'
 import { Analytics } from '@vercel/analytics/react'
 
 const config: DocsThemeConfig = {
-  main: ({ children }) => (<>
-    {children}
-    <Analytics />
-</>),
+  main: ({ children }) => (
+    <>
+      {children}
+      <Analytics />
+    </>
+  ),
   logo: <span>Cybersecurity Awareness</span>,
-  project: {
-    link: 'https://github.com/james-txt/cybersecurity-awareness',
-  },
   feedback: {
     content:null
   },
