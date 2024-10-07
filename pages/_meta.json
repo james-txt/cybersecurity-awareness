@@ -1,6 +1,9 @@
 {
   "index": "Introduction",
-  "another": "Another Page",
+  "phishing": "Phishing Awareness",
+  "password": "Password Security",
+  "protection": "Data Protection",
+  "mfa": "Multi-Factor Authentication",
   "advanced": "Advanced",
   "about": {
     "title": "About",

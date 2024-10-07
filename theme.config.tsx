@@ -33,6 +33,9 @@ const config: DocsThemeConfig = {
           </a>
       </span>
     )
+  },
+  search: {
+    placeholder: 'Search cybersecurity topics..'
   }
 }
 
