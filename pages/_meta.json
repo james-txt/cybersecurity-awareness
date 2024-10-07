@@ -4,7 +4,6 @@
   "password": "Password Security",
   "protection": "Data Protection",
   "mfa": "Multi-Factor Authentication",
-  "advanced": "Advanced",
   "about": {
     "title": "About",
     "type": "page"
