@@ -1,23 +1,25 @@
 import React, { useState } from 'react';
 import { ChevronLeft, ChevronRight } from 'lucide-react';
 
-import intro from "../assets/intro.png";
-import mfa from "../assets/mfa.png";
-import phishing from "../assets/phishing.png";
-
-/*
-import ImageSlider from '../components/ImageSlider'
-
-<ImageSlider className="flex min-h-screen flex-col items-center justify-center"/>
-*/
+import mfa2a from "../assets/mfa2a.png";
+import mfa2b from "../assets/mfa2b.png";
+import mfa2c from "../assets/mfa2c.png";
+import mfa2d from "../assets/mfa2d.png";
+import mfa2e from "../assets/mfa2e.png";
+import mfa2f from "../assets/mfa2f.png";
+import mfa2g from "../assets/mfa2g.png";
 
 const images = [
-  { src: intro },
-  { src: mfa },
-  { src: phishing },
+  { src: mfa2a, alt: "MFA Image 1" },
+  { src: mfa2b, alt: "MFA Image 2" },
+  { src: mfa2c, alt: "MFA Image 3" },
+  { src: mfa2d, alt: "MFA Image 4" },
+  { src: mfa2e, alt: "MFA Image 5" },
+  { src: mfa2f, alt: "MFA Image 6" },
+  { src: mfa2g, alt: "MFA Image 7" },
 ];
 
-export default function ImageSlider() {
+export default function ImageSliderMfa() {
   const [currentIndex, setCurrentIndex] = useState(0);
 
   const prevSlide = () => {
@@ -30,13 +32,11 @@ export default function ImageSlider() {
 
   return (
     <div className="relative w-full mx-auto my-6">
-      <div
-        className="relative h-[460px] mx-12"
-      >
+      <div className="relative h-[600px] mx-12 overflow-hidden rounded-xl">
         <img
           src={images[currentIndex].src.src}
-          alt={`Slider Image ${currentIndex + 1}`}
-          className="w-full h-full object-cover rounded-xl transition-all duration-500 ease-in-out"
+          alt={images[currentIndex].alt}
+          className="w-full h-full object-contain transition-all duration-500 ease-in-out"
         />
       </div>
       <button
