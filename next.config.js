@@ -5,7 +5,7 @@ const withNextra = require('nextra')({
 
 module.exports = withNextra({
   webpack: (config, { buildId, dev, isServer, defaultLoaders, webpack }) => {
-    // config.cache = false; // Comment this out or remove it to re-enable the cache
+    config.cache = false; // Comment this out or remove it to re-enable the cache
     return config;
   },
 });
