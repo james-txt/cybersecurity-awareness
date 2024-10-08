@@ -30,8 +30,20 @@ export default function ImageSliderMfa() {
     setCurrentIndex((prevIndex) => (prevIndex + 1) % images.length);
   };
 
+  const handleKeyDown = (event) => {
+    if (event.key === 'ArrowLeft') {
+      prevSlide();
+    } else if (event.key === 'ArrowRight') {
+      nextSlide();
+    }
+  };
+
   return (
-    <div className="relative w-full mx-auto my-6">
+    <div
+      className="relative w-full mx-auto my-6"
+      tabIndex={0}
+      onKeyDown={handleKeyDown}
+    >
       <div className="relative h-[600px] mx-12 overflow-hidden rounded-xl">
         <img
           src={images[currentIndex].src.src}
@@ -57,11 +69,7 @@ export default function ImageSliderMfa() {
         {images.map((_, index) => (
           <div
             key={index}
-            className={`h-1 w-10 mx-1 ${
-              index === currentIndex
-                ? "bg-[#0471BB] rounded-xl"
-                : "bg-gray-500 rounded-xl"
-            } transition-all duration-100 ease-in-out`}
+            className={`h-1 w-10 mx-1 ${index === currentIndex ? "bg-[#0471BB]" : "bg-gray-500"} rounded-xl transition-all duration-100 ease-in-out`}
           />
         ))}
       </div>
