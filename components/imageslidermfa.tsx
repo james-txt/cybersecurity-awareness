@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
 import { ChevronLeft, ChevronRight } from 'lucide-react';
-import Image from "next/image";
 
 import mfa2a from "../assets/mfa2a.png";
 import mfa2b from "../assets/mfa2b.png";
@@ -46,12 +45,10 @@ export default function ImageSliderMfa() {
       onKeyDown={handleKeyDown}
     >
       <div className="relative h-[600px] mx-12 overflow-hidden rounded-xl">
-        <Image
+        <img
           src={images[currentIndex].src.src}
           alt={images[currentIndex].alt}
           className="w-full h-full object-contain transition-all duration-500 ease-in-out"
-          width={900}
-          height={600} // Adjust the value as needed
         />
       </div>
       <button
