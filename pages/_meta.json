@@ -4,6 +4,12 @@
   "password": "Password Security",
   "protection": "Data Protection",
   "mfa": "Multi-Factor Authentication",
+  "seperator": {
+    "title": "Marketing and Outreach",
+    "type": "separator"
+  },
+  "emails": "Emails",
+  "promotional": "Promotionals",
   "about": {
     "title": "About",
     "type": "page"
