@@ -15,6 +15,6 @@
     "isolatedModules": true,
     "jsx": "preserve"
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", "components/ImageSliderMfa.jsx"],
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", "components/ImageSliderMfa.tsx"],
   "exclude": ["node_modules"]
 }
