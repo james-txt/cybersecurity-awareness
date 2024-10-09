@@ -2,58 +2,69 @@ export const quizPhishing = {
 	questions: [
 		{
 			id: 1,
-			question: 'What is phishing primarily aimed at?',
+			question: 'What is a common red flag in a phishing email?',
 			answers: [
-				'Installing malware on devices',
-				'Impersonating legitimate organizations to steal sensitive information',
-				'Disrupting network services',
-				'Spreading misinformation online'
+				'Personalized greeting',
+				'Urgent call to action',
+				'Professional language',
+				'All of the above'
 			],
-			correctAnswer: 'Impersonating legitimate organizations to steal sensitive information',
+			correctAnswer: 'Urgent call to action',
 		},
 		{
 			id: 2,
-			question: 'Which of the following is a common characteristic of phishing emails?',
+			question: 'Which of the following is a sign that an email may be a phishing attempt?',
 			answers: [
-				'Personalized greetings',
-				'Urgent language requesting immediate action',
-				'Attachments with detailed company information',
-				'Correct spelling and grammar'
+				'The email is from a known contact',
+				'The email contains a link to a website that looks legitimate',
+				'The email requests sensitive information',
+				'The email is well-written with no errors'
 			],
-			correctAnswer: 'Urgent language requesting immediate action',
+			correctAnswer: 'The email requests sensitive information',
 		},
 		{
 			id: 3,
-			question: 'What should you do if you receive an email that appears suspicious?',
+			question: 'If you receive an email that claims to be from your bank but uses a generic greeting, what should you do?',
 			answers: [
-				'Click on any links to investigate further',
-				'Verify the sender by contacting the organization directly through official channels',
-				'Forward it to your colleagues for their opinions',
-				'Ignore it and delete it without action'
+				'Click the link to verify your account',
+				'Ignore the email',
+				'Call your bank using a known number to verify',
+				'Reply to the email asking for clarification'
 			],
-			correctAnswer: 'Verify the sender by contacting the organization directly through official channels',
+			correctAnswer: 'Call your bank using a known number to verify',
 		},
 		{
 			id: 4,
-			question: 'What type of phishing targets high-profile individuals like executives?',
+			question: 'What should you look for in the sender\'s email address to identify a phishing attempt?',
 			answers: [
-				'Email phishing',
-				'Spear phishing',
-				'Smishing',
-				'Vishing'
+				'A familiar domain name',
+				'A misspelled version of the legitimate domain',
+				'A personal email address',
+				'Both B and C'
 			],
-			correctAnswer: 'Spear phishing',
+			correctAnswer: 'Both B and C',
 		},
 		{
 			id: 5,
-			question: 'What is a common sign of a phishing email?',
+			question: 'Which of the following actions is NOT recommended when you suspect a phishing email?',
 			answers: [
-				'A request for personal information via secure channels',
-				'A link to a well-known company website',
-				'Generic greetings such as "Dear Customer"',
-				'Clear and professional language'
+				'Reporting the email to your IT department',
+				'Clicking on any links to see where they lead',
+				'Deleting the email immediately',
+				'Verifying the sender\'s identity through other means'
 			],
-			correctAnswer: 'Generic greetings such as "Dear Customer"',
+			correctAnswer: 'Clicking on any links to see where they lead',
+		},
+		{
+			id: 6,
+			question: 'What is spear phishing?',
+			answers: [
+				'A broad phishing attack targeting many individuals',
+				'A targeted phishing attack aimed at a specific individual or organization',
+				'A phishing attack that uses social media',
+				'None of the above'
+			],
+			correctAnswer: 'A targeted phishing attack aimed at a specific individual or organization',
 		},
 	],
 };

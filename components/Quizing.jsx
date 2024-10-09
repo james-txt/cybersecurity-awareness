@@ -21,7 +21,7 @@ export default function Quizing({ selectedQuiz }) {
   return (
     <div className="my-6 pb-6 mx-auto text-center border border-gray-500 rounded-xl">
       <div className="text-center">
-        <h1 className="mt-6 mb-3">Short Quiz</h1>
+        <h1 className="mt-6 mb-3">Interactive Quiz</h1>
       </div>
 
       {quizStarted ? (
