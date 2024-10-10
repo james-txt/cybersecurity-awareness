@@ -1,23 +1,14 @@
-# Nextra Docs Template 
+# Cybersecurity Awareness Website
 
-This is a template for creating documentation with [Nextra](https://nextra.site).
+Welcome to the Cybersecurity Awareness Website project by Innovatech Solutions! This repository contains the source code and resources for our comprehensive platform designed to educate employees about various cybersecurity threats and best practices.
 
-[**Live Demo →**](https://nextra-docs-template.vercel.app).
+## Overview
 
-[![](.github/screenshot.png)](https://nextra-docs-template.vercel.app)
+The Cybersecurity Awareness Website aims to empower employees with knowledge and tools to protect our company's valuable information. Through interactive content, educational articles, and multimedia resources, users can learn about key cybersecurity topics such as phishing, password security, data protection, installing and updating software, using multi-factor authentication, protecting networks and databases, backing up data, training employees, creating a security culture, and monitoring networks.
 
-## Quick Start
+## Features
 
-Click the button to clone this repository and deploy it on Vercel:
-
-[![](https://vercel.com/button)](https://vercel.com/new/clone?s=https%3A%2F%2Fgithub.com%2Fshuding%2Fnextra-docs-template&showOptionalTeamCreation=false)
-
-## Local Development
-
-First, run `pnpm i` to install the dependencies.
-
-Then, run `pnpm dev` to start the development server and visit localhost:3000.
-
-## License
-
-This project is licensed under the MIT License.
+- **Interactive Content**: Engage with videos, infographics, and quizzes.
+- **Educational Articles**: In-depth guides on various cybersecurity topics.
+- **Up-to-Date Information**: Regularly updated content to keep you informed.
+- **User-Friendly Interface**: Easy navigation and accessibility for all users.
