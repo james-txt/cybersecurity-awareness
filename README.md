@@ -11,4 +11,4 @@ The Cybersecurity Awareness Website aims to empower employees with knowledge and
 - **Interactive Content**: Engage with videos, infographics, and quizzes.
 - **Educational Articles**: In-depth guides on various cybersecurity topics.
 - **Up-to-Date Information**: Regularly updated content to keep you informed.
-- **User-Friendly Interface**: Easy navigation and accessibility for all users.
+- **User-Friendly Interface**: Easy navigation and accessibility for all users. 
