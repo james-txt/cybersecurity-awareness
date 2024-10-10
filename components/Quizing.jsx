@@ -1,3 +1,4 @@
+'use client';
 import React, { useState } from 'react';
 import Quiz from './Quiz';
 import { quizPasswordSecurity } from '../components/data/quizPasswordSecurity';
