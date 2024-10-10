@@ -5,6 +5,10 @@
   "protection": "Data Protection",
   "software": "Software Installation and Update",
   "mfa": "Multi-Factor Authentication",
+  "-": {
+    "title": "Marketing and Outreach",
+    "type": "separator"
+  },
   "emails": "Email Templates",
   "promotional": "Promotional Materials",
   "about": {
