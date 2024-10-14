@@ -6,13 +6,21 @@ import { quizDataProtection } from '../components/data/quizDataProtection';
 import { quizMfa } from '../components/data/quizMfa';
 import { quizPhishing } from '../components/data/quizPhishing';
 import { quizSoftwareInstallationUpdate } from '../components/data/quizSoftwareInstallationUpdate';
+import { quizBackup } from '../components/data/quizBackup';
+import { quizCulture } from '../components/data/quizCulture';
+import { quizMonitoring } from '../components/data/quizMonitoring';
+import { quizProtecting } from '../components/data/quizProtecting';
 
 const quizzes = {
   passwordSecurity: quizPasswordSecurity,
 	dataProtection: quizDataProtection,
-	Mfa: quizMfa,
-	Phishing: quizPhishing,
+	mfa: quizMfa,
+	phishing: quizPhishing,
   softwareInstallationUpdate: quizSoftwareInstallationUpdate,
+  backup: quizBackup,
+  culture: quizCulture,
+  monitoring: quizMonitoring,
+  protecting: quizProtecting,
 };
 
 export default function Quizing({ selectedQuiz }) {
