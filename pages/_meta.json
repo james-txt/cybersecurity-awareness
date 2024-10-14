@@ -7,6 +7,9 @@
   "mfa": "Multi-Factor Authentication",
   "protecting": "Protecting Networks and Databases",
   "backup": "Routine Data Backups",
+  "training": "Training Employees",
+  "culture": "Creating a Security Culture",
+  "monitoring": "Network Monitoring",
   "-": {
     "title": "Marketing and Outreach",
     "type": "separator"

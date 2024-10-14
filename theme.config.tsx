@@ -25,6 +25,9 @@ const config: DocsThemeConfig = {
   editLink: {
     text: null,
   },
+  sidebar: {
+    defaultMenuCollapseLevel: 1,
+  },
   footer: {
     text: (
       <span>
