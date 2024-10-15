@@ -1,11 +1,15 @@
 'use client';
 import React, { useState } from 'react';
 import ImageSlider from './ImageSlider';
-import { mfaImages, softwareImages } from './data/imageData';
+import { mfaImages, softwareImages, backupImages, cultureImages, protectingImages, monitoringImages } from './data/imageData';
 
 const imageSets = {
   mfa: mfaImages,
   software: softwareImages,
+  backup: backupImages,
+  culture: cultureImages,
+  protecting: protectingImages,
+  monitoring: monitoringImages,
 };
 
 export default function ImageSliderWrapper({ selectedSet }) {
