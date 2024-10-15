@@ -10,6 +10,7 @@ import { quizBackup } from '../components/data/quizBackup';
 import { quizCulture } from '../components/data/quizCulture';
 import { quizMonitoring } from '../components/data/quizMonitoring';
 import { quizProtecting } from '../components/data/quizProtecting';
+import { quizTraining } from '../components/data/quizTraining';
 
 const quizzes = {
   passwordSecurity: quizPasswordSecurity,
@@ -21,6 +22,7 @@ const quizzes = {
   culture: quizCulture,
   monitoring: quizMonitoring,
   protecting: quizProtecting,
+  training: quizTraining,
 };
 
 export default function Quizing({ selectedQuiz }) {
